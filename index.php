@@ -11,19 +11,20 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <header>
+    <header class="m-2">
         <h1>PHP Badwords</h1>
-        <h4>Questo è il paragrafo lungo che conterra la tua parola inserita in input!</h4>
-        <h4>Inserisci la tua parola ...</h4>
+        <h4 class="m-3">Questo è il paragrafo lungo che conterra la tua parola inserita in input!</h4>
     </header>
     <main>
-    <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control w-25" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">Non condivideremo la tua parola segreta</div>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+    <form action="parola.php" method="POST">
+  <div class="m-4 ">
+    <label for="frase" class="form-label">Inserisci la tua frase</label>
+    <input type="text" name="frase" class="form-control w-25">
+
+    <label for="parola" class="form-label">Inserisci la parola</label>
+    <input type="text" name="parola" class="form-control w-25">
+
+  <button type="submit" class="btn btn-primary m-2">Invia</button>
 </form>
     </main>
     
