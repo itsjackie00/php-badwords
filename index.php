@@ -13,7 +13,6 @@
 <body>
     <header class="m-2">
         <h1>PHP Badwords</h1>
-        <h4 class="m-3">Questo è il paragrafo lungo che conterra la tua parola inserita in input!</h4>
     </header>
     <main>
     <form action="parola.php" method="POST">
