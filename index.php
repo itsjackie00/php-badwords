@@ -17,7 +17,14 @@
         <h4>Inserisci la tua parola ...</h4>
     </header>
     <main>
-        
+    <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control w-25" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Non condivideremo la tua parola segreta</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
     </main>
     
 </body>
