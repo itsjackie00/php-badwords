@@ -18,9 +18,11 @@ VAR_DUMP($_POST);
 <body>
     <header class="m-2">
         <h3><?php echo $frase ?>, <?php echo $parola ?></h3>
+        <p>Lunghezza della frase : <?php echo strlen($frase) ?></p>
     </header>
     <main>
-        <p><?php echo str_replace($parola, '***', $frase) ?></p>
+        <h3><?php echo str_replace($parola, '***', $frase) ?></h3>
+        <p>Lunghezza della frase : <?php echo strlen($frase)  ?></p>
     </main>
 </body>
 
