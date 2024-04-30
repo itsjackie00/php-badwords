@@ -2,7 +2,7 @@
 
 $parola = $_POST['parola'];
 $frase = $_POST['frase'];
-
+VAR_DUMP($_POST);
 ?>
 <!DOCTYPE html>
 <html lang="en">
